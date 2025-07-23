@@ -6,7 +6,7 @@ import time
 import csv
 import os
 from collections import deque
-from nusa_indah import *
+from vehicle_detector import detect_tires_enhanced, classify_vehicle_type
 
 def read(
     SERIAL_PORT: str = '/dev/cu.usbmodem101',  # Update to your device
