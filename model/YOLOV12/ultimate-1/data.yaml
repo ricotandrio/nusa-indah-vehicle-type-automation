@@ -1,0 +1,7 @@
+names:
+- '0'
+- '1'
+nc: 2
+test: ../test/images
+train: ../train/images
+val: ../valid/images

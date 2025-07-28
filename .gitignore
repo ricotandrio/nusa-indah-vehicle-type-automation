@@ -175,7 +175,8 @@ cython_debug/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -322,6 +323,11 @@ pip-selfcheck.json
 # Ignore all local history of files
 .history
 .ionide
+
+# model/
+*.jpg
+*.mp4
+*.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,macos,flask,virtualenv
 
